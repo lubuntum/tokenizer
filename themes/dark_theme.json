@@ -1,0 +1,85 @@
+{
+  "name": "Dark Mode",
+  "window": {
+    "background": "#1a1a2e",
+    "size": "700x650"
+  },
+  "main_frame": {
+    "background": "#16213e",
+    "corner_radius": 15,
+    "padding_x": 20,
+    "padding_y": 20
+  },
+  "title": {
+    "color": "#e94560",
+    "size": 28,
+    "weight": "bold"
+  },
+  "subtitle": {
+    "color": "#a0a0a0",
+    "size": 14
+  },
+  "labels": {
+    "color": "#e0e0e0",
+    "size": 13,
+    "weight": "bold"
+  },
+  "entry": {
+    "background": "#0f3460",
+    "border": "#533483",
+    "text": "#ffffff",
+    "placeholder": "#a0a0a0",
+    "height": 40,
+    "font_size": 13
+  },
+  "buttons": {
+    "browse": {
+      "background": "#e94560",
+      "hover": "#c73e54",
+      "text": "#ffffff"
+    },
+    "analyze": {
+      "background": "#533483",
+      "hover": "#e94560",
+      "text": "#ffffff"
+    },
+    "height": 45,
+    "corner_radius": 10,
+    "font_size": 15,
+    "weight": "bold"
+  },
+  "dropdown": {
+    "background": "#0f3460",
+    "button": "#533483",
+    "hover": "#e94560",
+    "text": "#ffffff",
+    "menu_background": "#16213e",
+    "menu_hover": "#533483",
+    "menu_text": "#ffffff"
+  },
+  "results": {
+    "title_color": "#e94560",
+    "title_size": 18
+  },
+  "cards": {
+    "background": "#0f3460",
+    "corner_radius": 10,
+    "label_color": "#a0a0a0",
+    "label_size": 12,
+    "value_color": "#ffffff",
+    "value_size": 14
+  },
+  "stat_cards": {
+    "background": "#0f3460",
+    "corner_radius": 10,
+    "value_color": "#e94560",
+    "value_size": 24,
+    "label_color": "#a0a0a0",
+    "label_size": 11
+  },
+  "progress_bar": {
+    "background": "#0f3460",
+    "color": "#e94560",
+    "height": 20
+  }
+}

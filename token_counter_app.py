@@ -166,8 +166,8 @@ class TokenCounterApp(ctk.CTk):
         # Update values
         self.folder_card.configure(text=folder_name)
         self.model_card.configure(text=model)
-        self.tokens_card.configure(text=f"{total_tokens:,}")
-        self.files_card.configure(text=str(file_count))
+        self.tokens_card.configure(text=f"tokens: {total_tokens:,}")
+        self.files_card.configure(text=f"files: {file_count}")
         self.extensions_card.configure(text=f"{len(extensions)} types")
 
         # Show results
